@@ -1,4 +1,4 @@
-{% set version = "0.10.0" %}
+{% set version = "0.10.6" %}
 
 package:
   name: awk-language-server
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://registry.npmjs.org/awk-language-server/-/awk-language-server-{{ version }}.tgz
-  sha256: 50ca8ef6aca2b91fc88f73f94926244af60894406690f669797129d6447c91dc
+  sha256: 254c12fefe25453846313318fcd5f7b00dcef46568bb02c065a65248a77d3e11
 
 build:
   number: 0
-  skip: True  # [win or nodejs != 20]
+  skip: true  # [win or nodejs != 20]
 
 requirements:
   build:
